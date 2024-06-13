@@ -1,0 +1,19 @@
+﻿已經開始建置於 2023/12/10 下午 06:27:59。
+     1>節點 2 (Build 目標) 上的專案 "C:\visual studio\class14\class14\class14.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt class14.cpp
+         class14.cpp
+     1>c:\visual studio\class14\class14\class14.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+     1>c:\visual studio\class14\class14\class14.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+     1>c:\visual studio\class14\class14\class14.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 請參閱 'fscanf' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\visual studio\class14\Debug\class14.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\visual studio\class14\Debug\class14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\visual studio\class14\Debug\class14.lib" /MACHINE:X86 Debug\class14.obj
+         class14.vcxproj -> C:\visual studio\class14\Debug\class14.exe
+     1>專案 "C:\visual studio\class14\class14\class14.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.18
